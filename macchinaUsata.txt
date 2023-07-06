@@ -1,0 +1,19 @@
+
+Tabella: Auto
+
+id                                  intero              NOT_NULL UNIQUE AUTO_INCREMENT    
+casa_produttrice                    stringa             VARCHAR(30)
+modello                             stringa             VARCHAR(50)
+anno_di_immatricolazione            data                YEAR
+tipologia_carburante                stringa             VARCHAR(40)
+volume_motore                       intero              MEDIUMINT
+numero_di_portiere                  intero              TINYINT
+posti_a_sedere                      intero              TINYINT
+colore                              stringa             VARCHAR(20)
+chilometri_percorsi                 intero              INT
+incidenti_subiti                    intero              TINYINT
+passaggi_di_proprieta               intero              MEDIUMINT
+prezzo_finale                       float               FLOAT(8,2)
+
+
+
